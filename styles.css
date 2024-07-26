@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #2e2e2e; /* Dark background for resume container */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    color: #61dafb; /* Light blue color for the name */
+}
+
+header p {
+    margin: 0;
+    font-size: 1.1em;
+    color: #9e9e9e; /* Lighter gray for the subtitle */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 2px solid #61dafb; /* Light blue border for section titles */
+    padding-bottom: 8px;
+    color: #61dafb; /* Light blue color for section titles */
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+section p, section ul {
+    margin: 5px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    padding-left: 20px;
+    text-indent: -20px;
+}
+
+ul li::before {
+    content: "•";
+    color: #61dafb; /* Light blue bullet points */
+    padding-right: 10px;
+}
+
+.skills-list li {
+    background: #3b3e42; /* Medium dark background for skills */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block; /* Display skills inline for better spacing */
+    margin-right: 10px;
+}
+
+.skills-list li strong {
+    color: #61dafb; /* Light blue for skill highlights */
+}
+
+.resume a {
+    color: #61dafb; /* Light blue for links */
+}
+
+.resume a:hover {
+    text-decoration: underline;
+}
